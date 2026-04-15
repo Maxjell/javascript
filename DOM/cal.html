@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>Calculator</h1>
+  <form onsubmit="main(); return false;">
+    <input type="text" placeholder="first number" id="numA"><br>
+    <input type="text" placeholder="second number" id="numB"><br>
+    <select id="symbol">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select><br>
+    <button type="submit">Calculate</button>
+  </form>
+  <p id="ans">Result :</p>
+  <script src="cal.js"></script>
+</body>
+</html>
