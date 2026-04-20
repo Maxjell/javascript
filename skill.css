@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(203, 55, 11);
+    background-image: url(bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.DS{
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 380px;
+    height: 430px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.87);
+    background-color: rgba(255,255,255,0.27);
+    backdrop-filter: blur(14px);
+    padding: 15px
+  }
+  :hover .DS{
+    background-color: rgba(225, 225, 225, 0.27);
+        backdrop-filter: blur(14px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.87);
+    }
+  .DS img{
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    margin-left:70px;
+    margin-right: 50px;
+    border-left: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+  }
+.Book{
+    display: flex;
+    flex-direction: row;
+     gap: 10px;
+    justify-content: center;
+}
